@@ -12,7 +12,7 @@ import TopNavigation from "./TopNavigation";
 
 const Stack = createNativeStackNavigator();
 
-const TravelNavigator = (props) => {
+const TravelNavigator = (props) => { 
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
